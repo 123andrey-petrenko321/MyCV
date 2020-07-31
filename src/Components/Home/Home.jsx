@@ -1,11 +1,11 @@
 import React from 'react';
 import s from './Home.module.css';
-import photo11 from './../img/photo11.png'
-import email from './../img/email.png'
-import telephone from './../img/telephone.png'
-import telegram from './../img/telegram.png'
-import github from './../img/github.png'
-import Nav from './Nav';
+import photo11 from './../../img/photo11.png'
+import email from './../../img/email.png'
+import telephone from './../../img/telephone.png'
+import telegram from './../../img/telegram.png'
+import github from './../../img/github.png'
+import Nav from '../Nav/Nav';
 const Home = () => {
     return (
         <div className={s.Wrapper} id='Home'>
