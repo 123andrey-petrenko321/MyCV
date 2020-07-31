@@ -1,0 +1,114 @@
+span{
+    color:rgb(228, 61, 89)
+}
+.Wrapper{
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(233, 225, 225);
+    display: flex;
+    justify-content: space-between;
+}
+.Photo{
+    position: absolute;
+    left:60%;
+    bottom: 0;
+    width: 33%;
+}
+.ContentBox{
+    display: flex;
+    align-self: center;
+    padding:70px 0 0 70px;
+    width: 100%;
+  
+}
+.TitleText{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    padding-left: 20px;
+}
+.Prof{
+    font-size: 45px;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+}
+.TextP{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: lightslategrey;
+}
+.SocialWrapper{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-end;
+}
+.SocialItems{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+}
+.SocialItem{
+    margin:20px 45px;
+}
+.SocialItem:hover{
+    transform: scale(1.1) translateY(-15%);
+    transition: all 0.4s;
+}
+@media(max-width: 330px){
+    .Wrapper{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }    
+    .Photo{
+        position: absolute;
+        left:30%;
+        top: 45%;
+        width: 47%;
+    }
+    .ContentBox{
+        display: flex;
+        align-self: center;
+        padding:50px 0 0 8px;
+        width: 100%;
+      
+    }
+    .TitleText{
+        margin: 0;
+        padding: 0;
+        font-family: 'Cabin', sans-serif;
+        font-weight: 700;
+        padding-left: 20px;
+    }
+    .Prof{
+        font-size: 35px;
+        margin: 0;
+        padding: 0;
+        font-weight: 700;
+    }
+    .TextP{
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 300;
+        font-size: 15px;
+        color: lightslategrey;
+    }
+    .SocialWrapper{
+      display: flex;
+      width: auto;
+      justify-content: center;
+    }
+    .SocialItems{
+        display: flex;
+        text-decoration: none;
+        list-style-type: none;
+        padding: 0;
+    }
+    .SocialItem{
+        margin:10px 20px;
+    }
+}

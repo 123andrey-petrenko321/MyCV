@@ -1,0 +1,109 @@
+.AboutWrapper{
+    min-height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color:rgb(233, 225, 225);
+    
+}
+.AboutMe{
+    padding-left: 70px;
+    display: flex;    
+    flex-direction:column;
+    align-items: center;
+}
+.AboutMeText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+}
+.AboutMe_h{
+    margin: 100px 0 25px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    width: 100%;   
+}
+.AboutMe_p{
+    margin:0 0 25px 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: lightslategrey;
+}
+.AboutMe_hobbies{
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+.AboutMe_hobbies_item{
+  display: flex;
+}
+.Hobbies_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Hobbies_text{
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+@media(max-width:330px){
+    .AboutWrapper{
+        min-height: 100vh;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        background-color:rgb(233, 225, 225);
+        
+    }
+    .AboutMe{
+        padding-left: 10px;
+        display: flex;    
+        flex-direction:column;
+        align-items: center;
+    }
+    .AboutMeText{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+    }
+    .AboutMe_h{
+        margin: 50px 0 20px;
+        font-family: 'Cabin', sans-serif;
+        font-weight: 700;
+        width: 100%;   
+    }
+    .AboutMe_p{
+        margin:0 0 25px 0;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 300;
+        font-size: 15px;
+        color: lightslategrey;
+    }
+    .AboutMe_hobbies{
+        width: 100%;
+        margin-top: 25px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .AboutMe_hobbies_item{
+      display: flex;
+    }
+    .Hobbies_content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Hobbies_text{
+        text-align: center;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 300;
+        font-size: 13px;
+    }
+}
