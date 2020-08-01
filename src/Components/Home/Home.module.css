@@ -67,9 +67,9 @@ span{
     }    
     .Photo{
         position: absolute;
-        left:30%;
-        top: 45%;
-        width: 47%;
+        left: 23%;
+        top: 31%;
+        width: 55%
     }
     .ContentBox{
         display: flex;
