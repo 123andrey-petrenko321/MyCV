@@ -50,6 +50,8 @@ span{
     text-decoration: none;
     list-style-type: none;
     padding: 0;
+   
+    
 }
 .SocialItem{
     margin:20px 45px;
@@ -67,16 +69,16 @@ span{
     }    
     .Photo{
         position: absolute;
-        left: 23%;
-        top: 31%;
-        width: 55%
+        left: 32%;
+        top: 36%;
+        width: 40%
     }
     .ContentBox{
         display: flex;
         align-self: center;
         padding:50px 0 0 8px;
         width: 100%;
-      
+        
     }
     .TitleText{
         margin: 0;
