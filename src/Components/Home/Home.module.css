@@ -12,7 +12,7 @@ span{
     position: absolute;
     left:60%;
     bottom: 0;
-    width: 31%;
+    width: 30%;
 }
 .ContentBox{
     display: flex;
@@ -50,15 +50,9 @@ span{
     text-decoration: none;
     list-style-type: none;
     padding: 0;
-   
-    
 }
 .SocialItem{
     margin:20px 45px;
-}
-.SocialItem:hover{
-    transform: scale(1.1) translateY(-15%);
-    transition: all 0.4s;
 }
 @media(max-width: 440px){
     .Wrapper{
