@@ -18,7 +18,7 @@ const About = () => {
                         I love boxing, music, books and old-school video games.<br />
                         I get great pleasure from gaining new knowledge and experience.<br />
                         In my free time, I spend a lot of time coding and reading technical literature.<br />
-                        My english is weak but i'm working on it.
+                        I'm not an expert in English but I'm already working on it.
                         </p>
                 </div>
 

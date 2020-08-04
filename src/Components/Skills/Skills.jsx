@@ -23,27 +23,27 @@ const Skills = () => {
             </div>
             <div className={s.Skills_items}>
                 <div className={s.Skills_item}>
-                    <img src={html} alt=''></img>
+                    <img src={html} alt='' className={s.Skills_img}></img>
                     <Progress done='70' />
                 </div>
                 <div className={s.Skills_item}>
-                    <img src={css} alt=''></img>
+                    <img src={css} alt='' className={s.Skills_img}></img>
                     <Progress done='60' />
                 </div>
                 <div className={s.Skills_item}>
-                    <img src={javascript} alt=''></img>
+                    <img src={javascript} alt='' className={s.Skills_img}></img>
                     <Progress done='74' />
                 </div>
                 <div className={s.Skills_item}>
-                    <img src={git} alt=''></img>
+                    <img src={git} alt='' className={s.Skills_img}></img>
                     <Progress done='50' />
                 </div>
                 <div className={s.Skills_item}>
-                    <img src={react} alt=''></img>
+                    <img src={react} alt='' className={s.Skills_img}></img>
                     <Progress done='65' />
                 </div>
                 <div className={s.Skills_item}>
-                    <img src={redux} alt=''></img>
+                    <img src={redux} alt='' className={s.Skills_img}></img>
                     <Progress done='45' />
                 </div>
             </div>
