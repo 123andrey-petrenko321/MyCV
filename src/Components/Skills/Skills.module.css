@@ -43,7 +43,7 @@
 .Skills_items{
     display: grid;
     grid-template-columns:300px 300px 300px;
-    grid-row-gap: 20px;
+    grid-row-gap: 30px;
     justify-items: center;
     align-items: center;
 }
@@ -121,4 +121,9 @@
         filter: saturate(100%);
     }
  
+}
+@media(min-width: 1400px){
+    .SkillsWrapper{
+        min-height: 80vh;
+    }
 }

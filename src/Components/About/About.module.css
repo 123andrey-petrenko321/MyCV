@@ -1,15 +1,18 @@
 .AboutWrapper{
+    display: flex;
     min-height: 100vh;
     width: 100%;
     padding: 0;
     margin: 0;
     background-color: #fff;
+    justify-content: center;
 }
 .AboutMe{
     padding:0;
     display: flex;    
     flex-direction:column;
     align-items: center;
+    align-self:center;
 }
 .AboutMeText{
     display: flex;
@@ -108,5 +111,20 @@
         font-family: 'Nunito Sans', sans-serif;
         font-weight: 300;
         font-size: 13px;
+    }
+}
+@media(min-width: 1400px){
+    .AboutWrapper{
+        min-height: 75vh;
+        width: 100%;
+        
+    }
+    .AboutMe{
+        max-width: 657px;
+        max-height: 60vh;
+    }
+    .AboutMe_hobbies{
+        width: 90vw;
+        margin-top: 70px;
     }
 }

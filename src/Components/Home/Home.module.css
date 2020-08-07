@@ -7,6 +7,7 @@ span{
     background-color: rgb(233, 225, 225);
     display: flex;
     justify-content: space-between;
+    
 }
 .Photo{
     position: absolute;
@@ -43,7 +44,7 @@ span{
 .SocialWrapper{
   display: flex;
   align-items: center;
-  width: 100%;
+  width:auto;
   justify-content: flex-end;
 }
 .SocialItems{
@@ -106,5 +107,11 @@ span{
     }
     .SocialItem{
         margin:10px 20px;
+    }
+}
+@media(min-width: 1400px){
+    .Wrapper{
+        min-height: 85vh;
+        position: relative;
     }
 }
